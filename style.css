@@ -47,10 +47,68 @@ body {
     height: 200px;
 }
 
+.escalacao{
+    text-align: center;
+    background-color: rgb(94, 138, 209);
+    padding: 20px;
+    margin: 40px;
+    border-radius: 40px;
+    color: white;
+    font-size: 25px;
+}
+
+.jogadores{
+    display: flex; 
+    justify-content: center;
+    gap: 60px; 
+    flex-wrap: wrap;
+}
+
+.jogador-card{
+    text-align: center;
+}
+.jogador-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover; 
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.jogador-card p{
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
 footer {
     background-color: rgb(7, 49, 98);
     padding: 10px;
     text-align: center;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.barra-sticky{
+    position: sticky;
+    top: 0px;
+    background-color: rgb(255,221,0);
+    color: rgb(7,49,98);
+    padding: 12px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 4px solid rgb(7,49,98);
+}
+
+.elemento-fixo{
+    position: fixed; 
+    bottom: 00px;   
+    right: 50px;   
+    z-index: 1000;  
+}
+.elemento-fixo img{
+    width: 150px;
+    height: 150px;
 }
